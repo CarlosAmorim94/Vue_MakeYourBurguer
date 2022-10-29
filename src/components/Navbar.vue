@@ -1,7 +1,7 @@
 <template>
   <nav>
-    <router-link to="/">
-      <img src="" id="logo" />
+    <router-link id="logo-url" to="/">
+      <img :src="logo" :alt="alt" id="logo" />
     </router-link>
     <router-link to="/">Home</router-link> |
     <router-link to="/pedidos">Pedidos</router-link>
@@ -11,6 +11,7 @@
 <script>
 export default {
   name: "Navbar",
+  props: ["logo", "alt"],
 };
 </script>
 

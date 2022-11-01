@@ -79,26 +79,16 @@
   ],
   "burgers": [
     {
-      "nome": "Carlos Augusto Vezza de Amorim",
-      "carne": "Picanha",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Bacon",
-        "Tomate"
-      ],
-      "status": "Em produção",
-      "id": 3
-    },
-    {
-      "nome": "Augusto Vezza",
+      "nome": "Sophia",
       "carne": "Veggie burger",
       "pao": "Integral",
       "opcionais": [
         "Tomate",
-        "Pepino"
+        "Pepino",
+        "Cebola roxa"
       ],
-      "status": "Solicitado",
-      "id": 4
+      "status": "Em produção",
+      "id": 2
     }
   ]
 }

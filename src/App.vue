@@ -31,7 +31,7 @@ export default {
 }
 .main-container {
   margin: 50px;
-  min-height: 250px;
+  min-height: 70vh;
 }
 h1 {
   text-align: center;
